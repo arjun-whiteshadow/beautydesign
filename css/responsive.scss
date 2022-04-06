@@ -1,0 +1,146 @@
+/**
+ * Created by Anu Ganesh
+*/
+
+@import "components/fonts_and_colors";
+
+@media all and (min-width: 2300px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  #header-wrapper {
+    .banner-section {
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            .carousel-caption {
+              h1 {
+                font-size: 3.2rem;
+              }
+              .details {
+                font-size: 1.6rem;
+                width: 45%;
+              }
+              .intro {
+                font-size: 1.5rem;
+                width: 42%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1200px) {
+  #header-wrapper {
+    .banner-section {
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            .carousel-caption {
+              .intro {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 991px) {
+  #header-wrapper {
+    .banner-section {
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            .carousel-caption {
+              h1 {
+                font-size: 2.4rem;
+              }
+              .details {
+                font-size: 1.3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  #header-wrapper {
+    .banner-section {
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            .carousel-caption {
+              display: block !important;
+			  h1 {
+				font-size: 2.3rem;
+				margin-top: 7%;
+				letter-spacing: 1px;
+			  }
+              .details {
+                display: none;
+              }
+            }
+          }
+        }
+		.carousel-control-prev,
+		.carousel-control-next {
+			display: none;
+		}
+      }
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+	#header-wrapper {
+	  .banner-section {
+		.carousel {
+		  .carousel-inner {
+			.carousel-item {
+			  .carousel-caption {
+				h1 {
+					font-size: 1.6rem;
+					margin-top: 5%;
+					letter-spacing: 0.4px;
+					margin-right: 1rem;
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	}
+}
+
+@media all and (max-width: 400px) {
+	#header-wrapper {
+	  .banner-section {
+		.carousel {
+		  .carousel-inner {
+			.carousel-item {
+			  .carousel-caption {
+				h1 {
+					font-size: 1.2rem;
+					margin-top: 4%;
+					letter-spacing: 0.4px;
+					margin-right: 1.5rem;
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	}
+}

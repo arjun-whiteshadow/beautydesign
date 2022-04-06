@@ -1,0 +1,101 @@
+/**
+ * Created by Anu Ganesh
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  line-height: 1.4;
+  color: black;
+  overflow-x: hidden;
+}
+
+body.hide-scroll {
+  overflow-y: hidden;
+}
+
+a {
+  color: black;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: black;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-bottom: 1.8rem;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+input {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+i {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.slick-slider .slick-slide {
+  outline: none;
+}
+
+.custom-container {
+  padding: 6rem;
+  margin: auto;
+}
+/*# sourceMappingURL=global.css.map */

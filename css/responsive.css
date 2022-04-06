@@ -1,0 +1,80 @@
+/**
+ * Created by Anu Ganesh
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+@media all and (min-width: 2300px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 3.2rem;
+  }
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption .details {
+    font-size: 1.6rem;
+    width: 45%;
+  }
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption .intro {
+    font-size: 1.5rem;
+    width: 42%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption .intro {
+    display: none;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 2.4rem;
+  }
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption .details {
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption {
+    display: block !important;
+  }
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 2.3rem;
+    margin-top: 7%;
+    letter-spacing: 1px;
+  }
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption .details {
+    display: none;
+  }
+  #header-wrapper .banner-section .carousel .carousel-control-prev,
+  #header-wrapper .banner-section .carousel .carousel-control-next {
+    display: none;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 1.6rem;
+    margin-top: 5%;
+    letter-spacing: 0.4px;
+    margin-right: 1rem;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #header-wrapper .banner-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 1.2rem;
+    margin-top: 4%;
+    letter-spacing: 0.4px;
+    margin-right: 1.5rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
